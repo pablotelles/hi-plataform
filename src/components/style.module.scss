@@ -1,0 +1,80 @@
+@import '../Style/_base';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    max-width: 900px;
+    border: 1px solid $color-background;
+    border-radius: 5px;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.15);
+    &:hover{
+        background-color: #F3F0FF;
+    }
+    .__father{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .__item{
+            margin-top: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+
+        .__name{
+            width: 100%;
+            vertical-align: text-bottom;           
+            font-size: 20px;
+            color: $color-primary;
+        }
+        .__name__ativo{
+            width: 100%;
+            font-weight: bold;
+        }    
+    }
+    .content__arrow{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: $color-secondary;
+        .__arrow{
+            padding: 7px;
+            border-radius: 100%;
+            font-size: 14px;
+            font-weight: bold;
+            transform: scale(.9);
+            transition: 0.5s;
+            &:hover{
+                transform: scale(1.1);
+                transition: 0.5s;
+
+            }
+          }
+        .__number__childs{
+            width: 18px;
+            display: flex;
+            justify-content: center;
+            border-radius: 100%;
+            padding: 10px;
+            font-size: 12px;
+            font-weight: bold;
+            background-color: $color-background;
+           }
+    } 
+    }
+    .children{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        border-left: 1px solid gray;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: white;
+    }  
+   
+}
