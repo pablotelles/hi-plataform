@@ -1,16 +1,16 @@
 import React from 'react'
 import data from './data/data.json'
-import { Item } from './components/Item'
+import { Item } from './components/Items/Item'
 import './Style/base.css'
 
 function App () {
   const arrayTransform = (data) => Object.entries(data).map(([index, object]) => object)
-  const array = arrayTransform(data)
+  const newData = arrayTransform(data)
 
   return (
     <main>
-      {array.map(pessoa => (
-        <Item key={pessoa.id} data={pessoa} />
+      {newData.map(person => (
+        <Item key={person.id} person={person} />
       ))}
     </main>
   )
