@@ -64,7 +64,6 @@ export const Item = ({ person, parentIsCheck, parentSetCheck }) => {
           return (
             <ChildItem key={pessoa.id}
             person={pessoa}
-            isChecked={isChecked}
             parentIsCheck={isChecked}
             parentSetCheck={setIsChecked} />
           )
