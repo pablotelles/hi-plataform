@@ -32,7 +32,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.
 
 ## OBS
-unfortunately the project is not 100% - I need to better understand how to pass and manipulate states in recursive components in React, so I can go back and finish perfectly - as I dont had much free time in the last few days could not search properly.. I believe that the layout and navigation of the user were good for computer, it would be possible to leave cool for mobile phones also with a scroll as the margin between lists.
+unfortunately the project is not 100% - the "checkbox" functionality from parent to child and the other way around didn't work perfectly.
+I need to better understand how to pass and manipulate states in recursive components in React, so I can go back and finish perfectly - as I dont had much free time in the last few days could not search properly...sorry.
 
-Anyway, I'm sending the project. I'll love suggestions and comments :D
+Anyway, I'm sent the project in the current state. I'll love suggestions and comments :D
 
